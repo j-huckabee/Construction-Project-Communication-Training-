@@ -1,24 +1,24 @@
 {
   "uiConfig": {
-    "globalTitle_intro": "Global Intro Title",
+    "globalTitle_intro": "GWIS Construction Project Communication Training",
     "primaryColor_intro": {
       "r": 0,
       "g": 0,
       "b": 0,
-      "a": 1
+      "a": 0
     },
     "secondaryColor_intro": {
-      "r": 100,
-      "g": 0,
-      "b": 0,
+      "r": 0,
+      "g": 42,
+      "b": 92,
       "a": 1
     },
-    "copyrightText_intro": "Copyright Doctrinis 2022",
+    "copyrightText_intro": "Copyright GWIS 2022 powered by iCAEV",
     "logoFile_intro": "Logo.png",
     "logoPadding_intro": 10,
-    "globalTitle": "Global Title",
+    "globalTitle": "GWIS Construction Project Communication Training",
     "primaryColor": {
-      "r": 150,
+      "r": 192,
       "g": 50,
       "b": 50,
       "a": 1
@@ -29,11 +29,11 @@
       "b": 150,
       "a": 1
     },
-    "copyrightText": "Copyright Doctrinis 2022",
+    "copyrightText": "Copyright GWIS 2022 powered by iCAEV",
     "logoFile": "Logo.png",
     "logoPadding": 10,
     "introImage": "Intro.png",
-    "introText": "Welcome to the module\nThis is the intro page!",
+    "introText": "Welcome to the GWIS Project Construction Activities Organization Structure and Communication Requirements!",
     "windowWidth": 1250,
     "windowHeight": 850,
     "lockWindow": false,
@@ -44,19 +44,19 @@
     "reviewIntroText": "The following questions were not answered correctly on your tests.\nTake note of the ones incorrect so that you can further review the training material.",
     "toRecipients": [
       {
-        "name": "Bob Sampleton",
-        "email": "bob.sample@somerandomdomain.com"
+        "name": "Frank Smoorenburg",
+        "email": "fsmoorenburg@gisy.com"
       },
       {
-        "name": "Jim Dandy",
-        "email": "jim.dandy@someotherdomain.com"
+        "name": "James Huckabee",
+        "email": "jhuckabee@gisy.com"
       }
     ],
     "ccRecipients": [
     ],
     "summaryEnabled": true,
     "helpTitle": "For Application Help:",
-    "helpContent": "Please view the project documentation at\nhttps://github.com/doctrinis/doctrinis",
+    "helpContent": "jhuckabee@gisy.com",
     "debug": false
   },
   "fontConfig": {
@@ -69,7 +69,7 @@
     "questionTitleFontSize": 24
   },
   "test": {
-    "name": "This is the test module",
+    "name": "GWIS Project Construction Activities Organization Structure and Communication Requirements Test Module",
     "description": "Select the best answer.\nOnce you begin the test you can exit however, you will have to restart from the beginning.\nYou may go back and change answers within the test.\nAlso note that to successfully pass the test you must complete the Post-Test with a score of 80% or greater.\nThe Pre-test can be failed as it is only used to establish a baseline score.",
     "confirmationText": "To confirm your test, click on the 'Next' button in the bottom right.",
     "timeLimit": 120,
@@ -77,91 +77,74 @@
     "questionPool": [
       {
         "jsonClass": "SingleChoiceQuestion",
-        "name": "Q1",
-        "instructions": "What is 1+1?",
+        "name": "Question 1",
+        "instructions": "Following proper communication channels will allow for what?",
+        "imageFile": "",
+        "correctOption": "E",
+        "options": {
+          "A": "Safe Operation",
+          "B": "Quality of service",
+          "C": "Efficiency of execution",
+          "D": "Potential cost savings",
+          "E": "All of the above"
+        }
+      },
+      {
+        "jsonClass": "SingleChoiceQuestion",
+        "name": "Question 2",
+        "instructions": "True or False: During a critical lift you notice that someone is unsafely positioned under a suspended load.\nYou should immediately call an “All Stop” without hesitation.",
         "imageFile": "",
         "correctOption": "A",
         "options": {
-          "A": "2",
-          "B": "42",
-          "C": "3",
-          "D": "None of the above"
+          "A": "True: Anyone has Stop Work Authority whether there is real or perceived danger and unsafe practices.",
+          "B": "False: It is important to inform the supervisor of a potential for unsafe conditions as he/she is the authority in charge."
         }
       },
       {
         "jsonClass": "SingleChoiceQuestion",
-        "name": "Q2",
-        "instructions": "What is the ultimate answer to life, the universe, and everything?",
+        "name": "Question 3",
+        "instructions": "If you are part of the GWIS Asset Construction Team and/or 3rd Party Vendor contracted by GWIS, who is it that\nyou must communicate project scope to in the event of any and all issues?",
         "imageFile": "",
-        "correctOption": "D",
+        "correctOption": "C",
         "options": {
-          "A": "Wombats",
-          "B": "12",
-          "C": "Nobody knows",
-          "D": "42",
-          "E": "None of the above"
+          "A": "GWIS Asset Construction Team",
+          "B": "GWIS Construction Manager",
+          "C": "GWIS Superintendent",
+          "D": "BP Operations or CTL"
         }
       },
       {
         "jsonClass": "SingleChoiceQuestion",
-        "name": "Q2",
-        "instructions": "What color is the sky?",
+        "name": "Question 4",
+        "instructions": "True or False: Risks to a project if proper communication channels are not followed can include but not limited to compromise in safe work, NCR’s and unfavorable impacts to budget.",
+        "imageFile": "",
+        "correctOption": "A",
+        "options": {
+          "A": "True: Deviating from communication protocol can result in negative outcomes that not only impact the project but also safe operations.",
+          "B": "False: As long as the communication comes from the client representative, it is in the projects best interest as they retain overall authority\non scope and project."
+        }
+      },
+      {
+        "jsonClass": "SingleChoiceQuestion",
+        "name": "Question 5",
+        "instructions": "True or False: If you are GWIS Asset Construction Team or 3rd Party Vendor and there is a change in scope from BP Operations/CTL it is your responsibility to do as requested.",
         "imageFile": "",
         "correctOption": "B",
         "options": {
-          "A": "Red",
-          "B": "Blue",
-          "C": "Green",
-          "D": "Yellow"
-        }
-      },
-      {
-        "jsonClass": "SingleChoiceQuestion",
-        "name": "Q2",
-        "instructions": "How much wood could a woodchuck chuck if a woodchuck could chuck wood?",
-        "imageFile": "",
-        "correctOption": "C",
-        "options": {
-          "A": "5",
-          "B": "2 Cords",
-          "C": "About 700lbs"
-        }
-      },
-      {
-        "jsonClass": "SingleChoiceQuestion",
-        "name": "Q2",
-        "instructions": "What kind of stuff should be on slides?",
-        "imageFile": "",
-        "correctOption": "C",
-        "options": {
-          "A": "Children",
-          "B": "Water",
-          "C": "Important Stuff",
-          "D": "Nothing"
-        }
-      },
-      {
-        "jsonClass": "SingleChoiceQuestion",
-        "name": "Q3",
-        "instructions": "How many fingers am I holding up?",
-        "imageFile": "",
-        "correctOption": "A",
-        "options": {
-          "A": "What fingers?",
-          "B": "There is no spoon...",
-          "C": "It's a butterfly!"
+          "A": "True: This is true as the Client is responsible for the entire project and safety of the asset during execution offshore",
+          "B": "False: It is important to inform the Construction Manager as the scope of change may not be in alignment with the approved\nprocedures determined by the project team."
         }
       }
     ],
-    "questionCount": 4,
-    "passingScore": 0.80
+    "questionCount": 5,
+    "passingScore": 0.100
   },
   "training": {
     "jsonClass": "ImageTraining",
     "name": "Training Slides",
-    "instructions": "Please carefully review the following presentation. The Post-Test will be issued once completed.",
-    "imageHeight": 650,
-    "imageWidth": 1180,
+    "instructions": "Please carefully review the following presentation. The Post-Test will be issued once completed requiring a 100% passing score.",
+    "imageHeight": 720,
+    "imageWidth": 960,
     "imageFiles": [
       "Slide1.png",
       "Slide2.png"
@@ -170,11 +153,11 @@
   "certificate": {
     "name": "Sample Training Module",
     "baseImageFile": "Certificate.png",
-    "imageWidth": 800,
-    "imageHeight": 600,
+    "imageWidth": 960,
+    "imageHeight": 720,
     "appDisplayScale": 0.8,
     "fontName": "Arial",
-    "emailSubject": "Sample Training Module",
+    "emailSubject": "GWIS Construction Projects Communication Training Module",
     "showExamName": true,
     "nameFontSize": 50,
     "score2FontSize": 24,
